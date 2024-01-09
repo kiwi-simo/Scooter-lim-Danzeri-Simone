@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;   
+}
+
+body{ 
+    background: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{ 
+    padding: 3%;
+    width: 50%;
+    margin-left: auto;
+    margin-top: 5%;
+    margin-right: auto; 
+    background-color: rgba(15, 15, 15, 0.5);
+    border-radius: 10px;
+}
+
+header > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+    width: 140px;
+}
+
+header p{
+    text-align: center;
+    color: rgb(46, 206, 46);
+    font: 1em sans-serif; /*qui per cambiare font*/
+    font-size: 18px;
+}
+
+nav{ 
+    background-color: rgb(46, 206, 46);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav div{
+    padding: 1%;
+    text-align: center;
+}
+
+.utente{
+    margin-top: 40px;
+}
+
+.nome-utente{
+    font: 1em sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+main p{
+    color: whitesmoke;
+}
+
+#Gino22{
+    background-color: chocolate;
+    width: 40%;
+    border-radius: 5px;
+    color: rgba(1, 1, 1, 0); /*sono consapevole che non sia il metodo migliore*/
+}
+
+#Mike24{
+    background-color: rgb(31, 170, 43);
+    width: 75%;
+    border-radius: 5px;
+    color: rgba(1, 1, 1, 0); /*sono consapevole che non sia il metodo migliore*/
+}
+
+#Fede154{
+    background-color: rgb(199, 25, 25);
+    width: 15%;
+    border-radius: 5px;
+    color: rgba(1, 1, 1, 0); /*sono consapevole che non sia il metodo migliore*/
+}
